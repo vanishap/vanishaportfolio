@@ -18,7 +18,7 @@ const Home = ()=>{
                 in an application, and this made me very enthusiastic to learn in-depth knowledge
                  of programming and workflow of web applications. 
             </p>
-            <p>My curiosity, enthusiasm to learn new technology and love for learning made
+            <p>My curiosity, enthusiasm and love for learning new technology made me
                  to jump start my career in software development.<br/>
             </p>
             

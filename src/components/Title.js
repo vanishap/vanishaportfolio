@@ -7,9 +7,9 @@ const Title = ()=>{
             <img className = 'title-img' src= {image} alt= "Vanisha's pic"/>
             <h3 className='title-role'>Frontend Developer</h3>
             <ul className='title-list'>
-                <Link to= "/"><li>Home</li></Link>
-                <Link to= "/projects"><li>Projects</li></Link>
-                <Link to= "/contact"><li>Contact</li></Link>
+                <Link to= "/" style={{textDecoration:'none'}}><li>Home</li></Link>
+                <Link to= "/projects" style={{textDecoration:'none'}}><li>Projects</li></Link>
+                <Link to= "/contact" style={{textDecoration:'none'}}><li>Contact</li></Link>
             </ul>
         </div>
     )

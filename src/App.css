@@ -20,9 +20,10 @@
   list-style-type: none;
   display: inline-flex;
   padding-right: 2px;;
-  padding: 30px;
+  padding: 20px;
   font-weight: bold;
   color:darkslateblue;
+  
 }
 
 .footer {
@@ -62,6 +63,21 @@ ul li {
 }
 .contact-list {
   list-style-type: none;
-  text-align: center;
+  text-align:justify;
+  margin-left: 60px;
+  text-decoration: none;
 }
 
+.projects {
+  text-align: center;
+  padding: 5px;
+  margin: 2px;
+}
+
+.project-details{
+  margin-left: 40px;
+}
+
+.contact {
+  text-align: center;
+}
