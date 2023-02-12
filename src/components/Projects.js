@@ -1,8 +1,13 @@
+import Footer from "./Footer";
+import Title from "./Title";
+
 const Projects = ()=>{
     return (
-        <div>
-            <h2>My Projects</h2>
-            <h3 >1. Food delivery app</h3>
+        <div >
+            <Title />
+            <h2 className="projects">My Projects</h2>
+            <div className="project-details">
+            <h3 > Food delivery app</h3>
             <ul >
                 <li>Developed replica of online food ordering app from scratch
                     using reusable UI components with ReactJs library.</li>
@@ -16,15 +21,16 @@ const Projects = ()=>{
                 <li>Optimised the application's performance by code splitting.</li>
                 <li>Maintained the state of application using Redux Tool Kit.</li>          
             </ul>
-            <h3 >2. Birthday remainder app</h3>
+            <h3 >Birthday remainder app</h3>
             <ul >
-                <li>Developed birthday reminder app.</li>
-                <li>consumed random API to fetch data.</li>
+                <li>Consumed random API to fetch data.</li>
                 <li>Used useState hook to initialise the state.</li>
                 <li>Iterated over the data using map method.</li>
             </ul>
-            <h3 >3. JavaScript Coding</h3>
+            <h3 >JavaScript Coding</h3>
             <ul ><li>Challenging my problem solving skills by everyday coding practices.</li></ul>
+            </div>
+            <Footer / >
         </div>
     )
 }
