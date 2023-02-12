@@ -1,3 +1,5 @@
+import logos from '../assests/logos.png';
+
 const Home = ()=>{
     return (
         <div className="introduction">
@@ -5,24 +7,23 @@ const Home = ()=>{
             <p>I'm a resourceful Front End Web Developer bringing in-depth knowledge of latest technology
                trends to produce clean website design. <br/>
               Consider my profile if you're looking for a developer building high 
-              performance applications. </p>
-            <p>Since 2019, I have been handling complex ReactJS, JavaScript, HTML, and CSS coding,<br/> 
-               design, and extensions to meet the organization's front-facing internet needs. <br/>
-               Detail-oriented collaboration with others to define project expectations and demand. <br/>
-               Hands-on testing and debugging to address inconsistencies and 
-               maintain performance thresholds.
+              performance applications. </p> 
+              <img className='logo-img' src={logos} alt='tech-logo'/> 
+            <p className='paragraph'>Excited to start my journey as a Frontend developer.<br/>
+                I have attended an online boot camp and have been learning HTML,
+                CSS, JavaScript, and React and have gained well-versed knowledge. <br/>
+                Though I'm an entry-level applicant, I'm passionate about work and 
+                can solve the coding challenges.<br/>
+                 I'm very much attracted to the user interactivity 
+                in an application, and this made me very enthusiastic to learn in-depth knowledge
+                 of programming and workflow of web applications. 
             </p>
-
+            <p>My curiosity, enthusiasm to learn new technology and love for learning made
+                 to jump start my career in software development.<br/>
+            </p>
+            
         </div>
     )
 }
 export default Home;
 
-/**
- 
- * Experience handling complex ReactJS, JavaScript, HTML, and CSS coding, 
- * design, and extensions to meet the organization's front-facing internet needs. 
- * Detail-oriented collaboration with others to define project expectations and demand. 
- * Hands-on testing and debugging to address inconsistencies and 
- * maintain performance thresholds.
- */
