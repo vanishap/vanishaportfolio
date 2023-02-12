@@ -45,11 +45,23 @@ ul li {
 }
 
 .introduction {
-  margin-left: 40px;
+  text-align: center;
+  margin-left:  40px;
+  margin-right: 40px;
   line-height: 1.6;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  
 }
 
 .intro-welcome{
   text-align: center;
 }
+
+.logo-img {
+  border: 1px solid black; 
+}
+.contact-list {
+  list-style-type: none;
+  text-align: center;
+}
+

@@ -1,4 +1,5 @@
-import image from '../assests/image.png'
+import image from '../assests/image.png';
+import { Link } from 'react-router-dom';
 
 const Title = ()=>{
     return (
@@ -6,10 +7,9 @@ const Title = ()=>{
             <img className = 'title-img' src= {image} alt= "Vanisha's pic"/>
             <h3 className='title-role'>Frontend Developer</h3>
             <ul className='title-list'>
-                <li>Home</li>
-                <li>Skills</li>
-                <li>Education</li>
-                <li>Contact</li>
+                <Link to= "/"><li>Home</li></Link>
+                <Link to= "/projects"><li>Projects</li></Link>
+                <Link to= "/contact"><li>Contact</li></Link>
             </ul>
         </div>
     )
