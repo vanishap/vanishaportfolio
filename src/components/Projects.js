@@ -9,7 +9,7 @@ const Projects = ()=>{
             <div className="project-details">
             <h3 > Food delivery app</h3>
             <ul >
-                <li>Developed replica of online food ordering app from scratch
+                <li>Developed large scale online food application from scratch
                     using reusable UI components with ReactJs library.</li>
                 <li>Created reusable functional components.</li> 
                 <li>Used react-hooks for building the app.</li>
