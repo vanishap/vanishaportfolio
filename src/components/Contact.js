@@ -5,7 +5,7 @@ const Contact =()=>{
     return (
         <div>
             <Title />
-            <h4 className="contact">You can contact me at </h4>
+           
             <ul className="contact-list">
                 <li>Email:  <strong>vanishapaidimarla@gmail.com</strong></li>
                 <li>Phone:   <strong>650-484-7215</strong></li>

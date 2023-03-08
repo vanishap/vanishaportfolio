@@ -3,7 +3,7 @@ import logos from '../assests/logos.png';
 const Home = ()=>{
     return (
         <div className="introduction">
-            <h4 className="intro-welcome">Welcome to my profile!</h4>
+           
             <p>I'm a resourceful Front End Web Developer bringing in-depth knowledge of latest technology
                trends to produce clean website design. <br/>
               Consider my profile if you're looking for a developer building high 

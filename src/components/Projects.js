@@ -5,7 +5,8 @@ const Projects = ()=>{
     return (
         <div >
             <Title />
-            <h2 className="projects">My Projects</h2>
+            
+           
             <div className="project-details">
             <h3 > Food delivery app</h3>
             <ul >
