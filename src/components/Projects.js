@@ -8,7 +8,11 @@ const Projects = ()=>{
             
            
             <div className="project-details">
-            <h3 > Food delivery app</h3>
+                
+<h3 >  Food delivery app ( <a target='__blank' href='https://vanisha-foodapp.netlify.app/'>Visit </a> ) </h3>
+
+               
+            
             <ul >
                 <li>Developed large scale online food application from scratch
                     using reusable UI components with ReactJs library.</li>
@@ -22,7 +26,12 @@ const Projects = ()=>{
                 <li>Optimised the application's performance by code splitting.</li>
                 <li>Maintained the state of application using Redux Tool Kit.</li>          
             </ul>
-            <h3 >Birthday remainder app</h3>
+            
+<h3 > Birthday reminder app ( <a target='__blank' href='https://birthdayapp-vanisha.netlify.app/'>Visit</a> )</h3>
+
+               
+            
+            
             <ul >
                 <li>Consumed random API to fetch data.</li>
                 <li>Used useState hook to initialise the state.</li>
@@ -31,6 +40,7 @@ const Projects = ()=>{
             <h3 >JavaScript Coding</h3>
             <ul ><li>Challenging my problem solving skills by everyday coding practices.</li></ul>
             </div>
+            <div className="dummy"></div>
             <Footer / >
         </div>
     )

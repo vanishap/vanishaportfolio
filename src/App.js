@@ -16,7 +16,7 @@ function App() {
       <Home />
       
       </div>
-  <Footer />
+     <Footer />
     </div>
   );
 }
